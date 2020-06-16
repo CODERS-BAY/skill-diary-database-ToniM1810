@@ -1,0 +1,6 @@
+Datenbanken
+Für uns sind relationale Datenbanken wichtig.
+Datenbanken werden gebraucht weil gleichzeitig mehrere User daran arbeiten können, Daten leicht aufbewahrt werden können und um die Daten strukturiert zu speichern. 
+ERM--> Objekte(Entities) definieren und dazugehörige Daten (Attribute) speichern, Beziehungen zwischen Entities definieren
+bei Entities immer im einzelnen sprechen, z.B. ein Buch kann nur eine ISBN haben und eine ISBN nur ein dazugehöriges Buch 
+
