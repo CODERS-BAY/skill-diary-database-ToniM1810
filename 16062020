@@ -1,6 +1,15 @@
 Datenbanken
 Für uns sind relationale Datenbanken wichtig.
-Datenbanken werden gebraucht weil gleichzeitig mehrere User daran arbeiten können, Daten leicht aufbewahrt werden können und um die Daten strukturiert zu speichern. 
+Vorteile von Datenbanken--> es können gleichzeitig mehrere User daran arbeiten, Daten können leicht aufbewahrt werden und weil 
+dadurch die Daten strukturiert hinterlegt werden können. 
 ERM--> Objekte(Entities) definieren und dazugehörige Daten (Attribute) speichern, Beziehungen zwischen Entities definieren
+Entity = Objekt (z.B. Buch & Autor), Relationship = Beziehung zwischen Entities (Autor schreibt Buch), 
+Attribut = Eigenschaften von Entities oder Beziehungen (Titel, Name etc.)
 bei Entities immer im einzelnen sprechen, z.B. ein Buch kann nur eine ISBN haben und eine ISBN nur ein dazugehöriges Buch 
+Entities können anhand von Schlüsselatributten eindeutig identifiziert werden, bei mehreren Schlüsselatributten ist ein Primärschlüssel zu bestimmen (immer unterstrichen)
+Beziehungen--> Unterschiede in Grade: 
+1. binär--> zwei beteiligte Entitäten--> Autor schreibt Buch
+2. ternär--> drei beteiligte Entitäten--> Autor schreibt Bucht und Blog
+3. unär--> eine beteiligte Entität
+Kardinalitäten--> 1:1, 1:N, N:1, M:N-> beschreiben die Beziehung genauer: Mann hat Frau 
 
