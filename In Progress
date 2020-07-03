@@ -1,3 +1,5 @@
+
+16.06.2020
 Datenbanken
 Für uns sind relationale Datenbanken wichtig.
 Vorteile von Datenbanken--> es können gleichzeitig mehrere User daran arbeiten, Daten können leicht aufbewahrt werden und weil 
@@ -12,4 +14,10 @@ Beziehungen--> Unterschiede in Grade:
 2. ternär--> drei beteiligte Entitäten--> Autor schreibt Bucht und Blog
 3. unär--> eine beteiligte Entität
 Kardinalitäten--> 1:1, 1:N, N:1, M:N-> beschreiben die Beziehung genauer: Mann hat Frau 
+
+03.07.2020
+Beziehungen können auch Atributte haben, siehe DB_02, Seite 8
+Notationen geben einer Beziehung noch mehr Informationen, Vorgaben von min und max Werten
+Notationen werden immer bei dem anderen Objekt festgeschrieben z.B. Professor und Vorlesungen, Professor kann und muss aber nicht Vorlesungen haben, d.h. bei Professor wird (0,*) eingetragen; Vorlesungen müssen Professor haben, zumindest einen, d.h. bei Vorlesungen wird (1,*)eingetragen 
+Schwache Entities sind in ihrer Existenz von einer anderen (starken) Entity abhängig, d.h. sie sind nur in Kombination mit dem Schlüssel der starken Entity eindeutig identifizierbar. 
 
