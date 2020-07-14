@@ -21,3 +21,5 @@ Notationen geben einer Beziehung noch mehr Informationen, Vorgaben von min und m
 Notationen werden immer bei dem anderen Objekt festgeschrieben z.B. Professor und Vorlesungen, Professor kann und muss aber nicht Vorlesungen haben, d.h. bei Professor wird (0,*) eingetragen; Vorlesungen müssen Professor haben, zumindest einen, d.h. bei Vorlesungen wird (1,*)eingetragen 
 Schwache Entities sind in ihrer Existenz von einer anderen (starken) Entity abhängig, d.h. sie sind nur in Kombination mit dem Schlüssel der starken Entity eindeutig identifizierbar. 
 
+14.07.2020
+Kreuztabellen nur für N:M Bezieuhungen
