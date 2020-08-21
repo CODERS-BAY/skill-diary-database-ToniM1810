@@ -23,3 +23,39 @@ Schwache Entities sind in ihrer Existenz von einer anderen (starken) Entity abh�
 
 14.07.2020
 Kreuztabellen nur für N:M Bezieuhungen
+Surrogate keys--> künstlicher Schlüssel--> ersetzt aus mehreren Attributen zusammengesetzte Primärschlüssel
+mit Hilfe von Normalformen können Redundanzen vermieden und Eigenschaften von Relationsschemata festgelegt werden
+NORMALFORMEN
+● 1NF: Ein Relationenschema ist in 1. Normalform, wenn dessen Wertebereiche
+atomar sind.
+● 2NF: Ein Relationenschema ist in 2. Normalform, wenn es in 1. Normalform ist
+und jedes Nichtschlüsselattribut voll funktional vom Primärschlüssel abhängig
+ist.
+● 3NF: Ein Relationenschema ist in 3. Normalform, wenn es sich in 2.
+Normalform befindet, und kein Nichtschlüsselattribut vom Primärschlüssel
+transitiv abhängig ist.
+18.08.2020
+SQL ist eine deklarative, mengenorientierte Sprache und basiert auf regionaler Algebra.
+Mit SQL kann man Datenbanken erstellen( DDL-standardisierte Definitionssprache zum Erstellen, Ändern und Löschen von Datenbankobjekten)
+Mit SQL kann man neue Datenbanken einfügen (DML-standardisierte Datenmanipulationssprache zum Einfügen, Ändern und Löschen von Daten)
+und mit SQL kann man Daten abfragen, der komplexeste Teil von SQL
+mit DCL (standardisierte Kontrollsprache) kann man Zugriffsrechte verwalten und Transaktionskontrolle ausüben
+Abfragen: "was will ich haben" und nicht "wie komme ich hin" formulieren
+Syntaktisch korrekte Anfragen können nicht zu endlosschleifen oder unendlichen Ergebnissen führen
+Keywords
+SELECT: Projektionsliste, Abfrage von Daten
+FROM: zu verarbeitende Relation
+WHERE: Selektions-, oder Verbundbedingungen
+GROUP BY: Gruppierung für Aggregatfunktionen
+HAVING: Selektionsbedingungen für Gruppen
+ORDER BY: Sortierung der Ergebnisrelation
+SELECT Attribute
+FROM Tabelle
+WHERE bedingungen
+Datenbanken bestehen aus miteinander verknüpften Tabellen. Diese Tabellen werden auch Relationen genannt. Eine Relation ist eine zweidimensionale , aus Zeilen und Spalten bestehende Anordnung
+von Feldern, auch Array genannt, die nur Einträge eines Typs von Datenwertenund keine identischen Zeilen enthalten kann. 
+Sicht (view) ist eine Untermenge einer Datenbank, Sicht kann Ausschnitte einer oder mehrerer Tabellen enthalten. Mit views könnern Daten betrachtet werden, wobei views kein Bestandteil der Daten sind.
+
+Die Struktur einer ganzen Datenbank wird als ihr Schema genannt. Das Schema gehört zu den Metadaten und ist damit ein Teil der Datenbank.
+Das Attribut einer Relation (Spalte einer Tabelle) kann eine endliche Anzahl von Werten annehme. Die Gesamtmenge dieser Werte wird Domäne des Attributs genannt. 
+Einschränkungen(Constraints) sind Regeln, die festlegen, welche Werte die Attribute einer Tabelle annehmen dürfen. 
